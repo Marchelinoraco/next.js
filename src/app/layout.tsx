@@ -1,13 +1,8 @@
 "use client";
-import type { Metadata } from "next";
+
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Link from "next/link";
-import Header from "@/components/header";
 import { usePathname } from "next/navigation";
-import Image from "next/image";
-import LogoGmim from "../assets/img/logoGmim.png";
-import LogoUser from "../assets/img/logoUser.jpg";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -29,63 +24,8 @@ export default function RootLayout({
   return (
     <html data-theme="corporate" lang="en">
       <body>
-        <div className="flex">
-          <div className="w-[20%] h-screen flex-col ">
-            <div className="poppins-regular flex justify-center bg-ungu items-center gap-2 py-4">
-              <Image
-                className="w-11 h-11 rounded-[24px]"
-                src={LogoUser}
-                alt=""
-              />
-              <h1>Current User</h1>
-            </div>
-            <div className="flex flex-col  justify-start pl-10 w-full bg-ungu ">
-              <div className=" gap-5 flex flex-col border-l-2 border-t-2 border-b-2 rounded-tl-xl rounded-bl-xl h-screen my-[20%] py-[10%]">
-                <div
-                  className={`${linkClass} ${
-                    pathname === "/"
-                      ? "translate-x-1 bg-white  rounded-tl-2xl rounded-bl-2xl shadow-b-xl"
-                      : ""
-                  } `}
-                >
-                  <Link href="/">Beranda</Link>
-                </div>
-                <div
-                  className={`${linkClass} ${
-                    pathname === "/user"
-                      ? "translate-x-1 bg-white  rounded-tl-2xl rounded-bl-2xl shadow-b-xl  "
-                      : ""
-                  }`}
-                >
-                  <Link href="/user">User</Link>
-                </div>
-                <div
-                  className={`${linkClass} ${
-                    pathname.startsWith("/pemasukkan")
-                      ? "translate-x-1 bg-white  rounded-tl-2xl rounded-bl-2xl shadow-b-xl"
-                      : ""
-                  }`}
-                >
-                  <Link href="/pemasukkan">Pemasukkan</Link>
-                </div>
-                <div
-                  className={`${linkClass} ${
-                    pathname.startsWith("/pengeluaran")
-                      ? "translate-x-1 bg-white  rounded-tl-2xl rounded-bl-2xl shadow-b-xl  "
-                      : ""
-                  }`}
-                >
-                  <Link href="/pengeluaran">Pengeluaran</Link>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="w-[80%]">
-            <div>
-              <Header />
-            </div>{" "}
-            {children}
-          </div>
+        <div className="flex-col w-full bg-11">
+          <div className="">{children}</div>
         </div>
       </body>
     </html>

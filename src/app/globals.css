@@ -20,6 +20,19 @@
   background-color: #ffe6e6;
 }
 
+.bg-11 {
+  background-color: #f9f7f7;
+}
+.bg-12 {
+  background-color: rgb(219, 226, 239);
+}
+.bg-13 {
+  background-color: #3f72af;
+}
+.bg-14 {
+  background-color: #112d4e;
+}
+
 .poppins-thin {
   font-family: "Poppins", sans-serif;
   font-weight: 100;
