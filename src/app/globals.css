@@ -4,7 +4,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-.bg-ungu {
+/* .bg-ungu {
   background-color: #7469b6;
 }
 
@@ -18,19 +18,19 @@
 
 .bg-pink1 {
   background-color: #ffe6e6;
-}
+} */
 
 .bg-11 {
-  background-color: #f9f7f7;
+  background-color: #000000;
 }
 .bg-12 {
-  background-color: rgb(219, 226, 239);
+  background-color: #cf7500;
 }
 .bg-13 {
-  background-color: #3f72af;
+  background-color: #f0a500;
 }
 .bg-14 {
-  background-color: #112d4e;
+  background-color: #f4f4f4;
 }
 
 .poppins-thin {

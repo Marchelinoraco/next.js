@@ -1,14 +1,7 @@
+// utils/images.js
 export const images = [
-  {
-    url: "https://img.daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg",
-  },
-  {
-    url: "https://img.daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg",
-  },
-  {
-    url: "https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg",
-  },
-  {
-    url: "https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg",
-  },
+  { id: 1, url: "/images/hr1.png", alt: "Gambar 1" },
+  { id: 2, url: "/images/h2.png", alt: "Gambar 2" },
+  { id: 3, url: "/images/h3.png", alt: "Gambar 3" },
+  { id: 4, url: "/images/h4.png", alt: "Gambar 4" },
 ];

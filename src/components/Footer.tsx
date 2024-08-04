@@ -3,13 +3,19 @@ import React from "react";
 export default function Footer() {
   return (
     <div>
-      <footer className="footer footer-center bg-white text-base-content shadow-xl   p-10">
+      <footer className="footer footer-center bg-white text-base-content shadow-xl    p-10">
         <nav className="grid grid-flow-row gap-4">
           <div className="text-black">Email : linoraco@gmail.com</div>
           <div className="text-black">
-            Alamat : 311 Pickertone , Ohio Colombus, Nj 082322
+            Alamat : Jalan Raya Wori-Bengkol, Lingkungan 4, Kelurahan Bengkol,
+            Kecamatan Mapanget, Manado
           </div>
-          <a className="link link-hover">Press kit</a>
+          <a
+            href="https://maps.app.goo.gl/BH7bN3jwVuBCBiqi7?g_st=com.google.maps.preview.copy"
+            className="link link-hover"
+          >
+            Google Maps
+          </a>
         </nav>
         <nav>
           <div className="grid grid-flow-col gap-4">
@@ -50,8 +56,7 @@ export default function Footer() {
         </nav>
         <aside>
           <p className="text-black">
-            Copyright © {new Date().getFullYear()} - by GMIM MUSAFIR COLOMBUS
-            OHIO USA
+            Copyright © {new Date().getFullYear()} - by BEPIN DWIPUTRA
           </p>
         </aside>
       </footer>
