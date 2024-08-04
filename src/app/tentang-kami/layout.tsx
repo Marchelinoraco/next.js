@@ -1,15 +1,14 @@
-// components/Layout.js
+import { ReactNode } from "react";
 
-const Layout = ({ children }) => {
+interface LayoutProps {
+  children: ReactNode;
+}
+
+const Layout = ({ children }: LayoutProps) => {
   return (
-    <div className="min-h-screen ">
+    <div className="min-h-screen">
       {/* Sidebar */}
-
-      {/* Main content area */}
-      <main className="flex-1 ">
-        {/* Admin dashboard content */}
-        {children}
-      </main>
+      {children}
     </div>
   );
 };

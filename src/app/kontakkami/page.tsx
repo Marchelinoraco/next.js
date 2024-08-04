@@ -17,15 +17,15 @@ export default function Page() {
         <div className="flex-col  p-10">
           <div className="flex-col items-center">
             <div className="flex  items-center gap-4">
-              <Image src={K1} className="w-[40px] h-[40px]" />
+              <Image alt="k1" src={K1} className="w-[40px] h-[40px]" />
               <h1 className="text-black">+6281343934351</h1>
             </div>
             <div className="flex items-center gap-4">
-              <Image src={K2} className="w-[40px] h-[40px]" />
+              <Image alt="k2" src={K2} className="w-[40px] h-[40px]" />
               <h1 className="text-black">95254</h1>
             </div>
             <div className="flex  items-center gap-4">
-              <Image src={K3} className="w-[40px] h-[40px]" />
+              <Image alt="k3" src={K3} className="w-[40px] h-[40px]" />
               <h1 className="text-black">
                 Jalan Raya Wori-Bengkol, Lingkungan 4, Kelurahan Bengkol,
                 Kecamatan Mapanget, Manado

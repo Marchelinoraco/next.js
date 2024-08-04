@@ -69,7 +69,7 @@ export default function Home() {
               <Image
                 className="w-[250px] mt-[-50px] lg:mt-0 lg:w-[280px]"
                 src={Logo}
-                alt=""
+                alt="logo"
               />
             </div>
             <div className="mx-[5%] mt-[-50px] lg:mt-0 animate-slide-in-right">
@@ -104,7 +104,11 @@ export default function Home() {
           <div className="flex justify-between lg:mx-[10%] bg-white p-5 lg:px-10 ">
             <div className="flex-col animate-slide-in-left">
               <div>
-                <Image className="w-[250px] mt-[-50px]" src={Logo}></Image>
+                <Image
+                  alt="logo"
+                  className="w-[250px] mt-[-50px]"
+                  src={Logo}
+                ></Image>
               </div>
               <div className="">
                 <h1 className="text-4xl lg:text-6xl poppins-bold">
@@ -119,10 +123,10 @@ export default function Home() {
               </div>
             </div>
             <div className="hidden  animate-bounce  w-[500px] h-[500px] lg:flex lg:mr-[-1000px] ">
-              <Image className="" src={P1}></Image>
+              <Image alt="p1" className="" src={P1}></Image>
             </div>
             <div className="w-[400px] animate-slide-in-down mt-[100px] lg:mt-[300px] lg:mr-[350px]">
-              <Image className="" src={P2}></Image>
+              <Image alt="p2" className="" src={P2}></Image>
             </div>
           </div>
         </div>
@@ -179,6 +183,7 @@ export default function Home() {
           </div>
           <ReactWhatsapp
             number="+62 813439343512"
+            element="button"
             className=" flex rounded-xl my-10 hover:font-semibold hover:bg-green-400 hover:-translate-y-3 duration-500 p-4 bg-green-500"
           >
             Hubungi Kami Untuk Informasi Lebih Detail
@@ -226,7 +231,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="mx-[10%] animate-pulse sm:mx-[20%] md:mx-[30%] lg:mx-0 ">
-                <Image src={P3}></Image>
+                <Image alt="p3" src={P3}></Image>
               </div>
             </div>
           </div>

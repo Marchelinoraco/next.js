@@ -85,7 +85,7 @@ const Header = () => {
               </ul>
             </div>
             <Link className="flex items-center ml-[-20px]" href="/user">
-              <Image src={LogoGmim} className="w-[100px]" />
+              <Image alt="logo" src={LogoGmim} className="w-[100px]" />
               <div className=" flex-col ml-[-20px] text-white">
                 <h1 className="poppins-bold text-xs sm:text-sm">
                   BEPIN DWIPUTRA COMPANY
@@ -155,6 +155,7 @@ const Header = () => {
           </div>
           <div className="navbar-end">
             <ReactWhatsapp
+              element="button"
               className="btn ml-10 hover:bg-green-400 rounded-xl "
               number="+62 81343934351"
             >

@@ -1,5 +1,6 @@
 import React from "react";
 import { images } from "@/utils/images";
+import Image from "next/image";
 
 export default function page() {
   return (
@@ -17,7 +18,11 @@ export default function page() {
               key={image.id}
               className="flex flex-col items-center justify-center mb-4"
             >
-              <img src={image.url} alt={image.alt} className="w-full h-auto" />
+              <Image
+                src={image.url}
+                alt={image.alt}
+                className="w-full h-auto"
+              />
               <p>{image.alt}</p>
             </div>
           ))}
